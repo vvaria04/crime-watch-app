@@ -2,13 +2,13 @@ import { StyleSheet, SafeAreaView } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 
-import HomeScreen from '@/src/screens/HomeScreen';
+import ReportIncidentScreen from '@/src/screens/ReportIncidentScreen';
 
-export default function MapScreen() {
+export default function ReportScreen() {
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar style="dark" />
-      <HomeScreen />
+      <ReportIncidentScreen />
     </SafeAreaView>
   );
 }
@@ -17,4 +17,4 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
   },
-});
+}); 
